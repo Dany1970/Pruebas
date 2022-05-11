@@ -1,2 +1,1 @@
-Mis primeros pasos en git
-Aprendiendo nuevos comando en Git
+Aprendiendo cómo agregar un archivo a dónde?
