@@ -6,3 +6,5 @@ esto que estoy aprendiendo
 escribimos nuevamente
 seguimos agregando líneas 
 yo no veo que se borre nada?
+a veeeeeeeerrrrrrrrrrr
+otra vez sopa
