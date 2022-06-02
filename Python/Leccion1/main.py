@@ -4,20 +4,27 @@ Created on Wed Apr 13 21:36:24 2022
 
 @author: dania
 """
-'''
-#Este ejercicio es para mostrar que las variables osn dinámicas y pueden ir 
+
+#Este primer ejercicio es para mostrar que las variables son dinámicas y pueden ir 
 #cambiando, incluso aunque sean de distinto tipo.
 
+'''
 miVariable = 3
-print(miVariable)
+print(miVariable)   #acá mivariable es de tipo entera
 
-miVariable = "a"
+miVariable = "a"  #Acá es la misma variable, ahora tipo string. Cambia, es dinámica
+                    # pero además, cambia el tipo, y no es necesario especificarlo
+                    #por eso es dinámicamente tipado.
 print(miVariable)
 
 miVariable = 3.5
 print(miVariable) #La palabra reservada print con los paréntesis es una función
                   #e imprime lo que ponemos entre paréntesis en la consola
-                  
+# Hemos visto en este ejercicio asignación de variables, reutilización de variables
+# y la función print, para # imprima en la consola lo que aparece entre paréntesis.
+  
+            
+
 #las variables asigna un valor en un lugar de la memoria, cada una de estas 
 #"casillas" es una posición única
 
@@ -29,7 +36,10 @@ z = x + y
 
 print(z)
 
-#Para saber el lugar de memoriandonde está asignado estas "literales" tenemos
+
+# Lugar de memoria donde está guardado el valor de una variable
+
+#Para saber el lugar de memoria donde están asignadas estas "literales" tenemos
 #la dirección id
 
 print(id(x)) #la función id muestra ese lugar
@@ -41,6 +51,7 @@ print(id(x)) #la función id muestra ese lugar
 
 #A este número x512 se le llama referencia de memoria o simplemente referencia
 
+
 #Los archivos en Git nunca se deben manipular
 # Acá me perdí algo que dio Natalia (buscar)
 #para que quede todo "cometeado"
@@ -48,27 +59,32 @@ print(id(x)) #la función id muestra ese lugar
 #Tipos de datos
 
 a = "hola alumnos"
+
 #Una función dentro de otra, en este caso imprimir en consola el tipo de dato que tiene
 #nuestra variable
-
+print(a)
 print(type(a))
 
 #Las variables en Python son dinámicas, pueden cambiar el tipo de dato
 #igualmente se puede poner como pista el tipo de dato, como una referencia, pero esto no es necesario
 
 b = str(4)
+print(b)
 print(type(b))
 
 #para ingresar una variable de tipo flotante, se pone el número con punto flotante
 c = 23.4
+print(c)
 print(type(c)) #al imprimir vemos que es de tipo float
 
 #Tipos booleanos
 
 d = True #usar mayúscula para True
+print(d)
 print(type(d))#al imprimir vemos que es bool
 
-#Al ser Python orientado a objetos, los tipos de datos son clases, es por eso que al mostrar el typo dice class
+#Al ser Python orientado a objetos, los tipos de datos son clases, es por eso que al 
+# mostrar el tipo dice class
 
 # Tipos int, float, string, bool
  
@@ -88,21 +104,20 @@ x = True
 print(x)
 print(type(x))
 
-
 # Manejo de cadenas
-
 
 miGrupoFavorito = "Queen"
 print(miGrupoFavorito)
 
 # Vamos a concatenar con el símbolo +
-# como estamos usando cadenas, lo usa para concatenar
+# como estamos usando cadenas, (no números) lo usa para concatenar
 
 print("Mi grupo favorito es " +miGrupoFavorito)
 
-#También se puede concatebar en la asignación de la variable. Ejemplo:
+#También se puede concatenar dentro de la asignación de la variable.
+# Ejemplo: concatenando dos cadenas on un espacio (el espacio también se concatena)
     
-myFavoriteGroup = "Metallica"+" "+"The Besto Heavy Metal Band"
+myFavoriteGroup = "Metallica" + " "  +"The Best Heavy Metal Band"
 print("Mi grupo favorito es " +myFavoriteGroup)
 
 #Al ser cadenas adyacentes, también puden concatenarse sin el +. Ejemplo:
@@ -128,7 +143,7 @@ print(numero1 + numero2)
 
 #Al ser las variables cadenas, el operador + concatena, no suma
 
-#Para que las pueda sumar, debo tranfromarla al tipo entero
+#Para que las pueda sumar, debo transformarla al tipo entero
 
 print(int(numero1)+int(numero2))
 
@@ -150,7 +165,7 @@ print(miBooleano3)
 #Ahora vamos a usar un If (condicional)
 
 if miBooleano3:
-    print("el resultado es Verdadero")
+    print("el resultado es verdadero")
 else:
     print("el resultado es falso")
 
@@ -170,25 +185,25 @@ resultado = input("Ingrese un número: ") # la función input recibe cualquier t
                                         # de dato y regresa un dato tipo string 
 print(resultado) 
 
-# Conversión de la entrada de datos
-
-
+# Conversión de la entrada de datos (a tipo entero)
 
 variable1 = int(input("Escribe el primer núnero: ")) # Convierte al str en tipo entero
 variable2 = int(input("Escribe el segundo númnero: ")) #idem
 suma = variable1 + variable2
-print("El resultado de la suma es: ", suma) #Aspi sale la suma, de otra manera
+print("El resultado de la suma es: ", suma) #Así sale la suma, de otra manera
 #si no lo transformamos a tipo entero, el + concatena
 
-'''
-"""
+
+
 operandoa = 8
 operandob = 5
 suma = operandoa + operandob
 print("El resultado de la suma es ", suma)
 
-# Otra forma: con la f de format: para imrpimir varias líneas o valores de variables
-#Fornato de interpolación, para incluir variables en una cadena
+# Otra forma: con la f de format: para imprimir varias líneas o valores de variables
+#Fornato de interpolación, para incluir variables en una cadena, usando la f y las llaves
+# entonces no hace falta concatenar. Es la forma preferida por los programadores
+
 print(f'El resultado de la suma es {suma}')
 
 resta = operandoa - operandob
@@ -214,9 +229,9 @@ print(f'El resto de la división es {modulo}')
 potencia = operandoa ** operandob
 
 print(f'La potencia es {potencia}')
-"""
+
 #Calcular el área y el perímetro de un rectángulo
-'''
+
 alto = int(input("Ingrese el alto del rectángulo: "))
 ancho = int(input("Ingresa el ancho del rectángulo: "))                 
 
@@ -227,9 +242,9 @@ print("\n")
 print(f"El área del rectángulo es {area} ")
 print("\n")
 print(f"El perímetro del rectángulo es {perimetro}")
-'''
+
 #Asignación y reasignación de variables, con sintaxis reducida
-'''
+
 miVariable3 = 10 + 1 #Si no le pongo el +1, imprime 10, si se lo pongo, reasigna
                     # a la variable el valor 11
 print(miVariable3)
@@ -249,8 +264,8 @@ print(miVariable3)
 
 miVariable3 /= 2
 print(miVariable3) #Notar que al dividir, lo transforma en float
-'''
-'''
+
+
 #Operadores con cadenas: concatenación
 
 texto = "ho" + "la"
@@ -281,9 +296,9 @@ print(comparando2)
 # Esto operadores son la base de muchos algoritmos que vamos a usar, así es que
 #a practicar!
 
-'''
+
 #Ejercicio: es par o impar
-'''
+
 numero = int(input("Ingrese un número: "))
 
 if numero % 2 == 0:
@@ -299,8 +314,7 @@ if edad >= 18:
     print(f"Tu edad es {edad} por lo tanto eres mayor de edad")
 else:
     print(f'Tu edad es {edad} por lo tanto eres menor de edad')
-'''       
-'''
+     
 #Operadores lógicos
 #OPeradores binarios and y or
 #Operador and
@@ -322,22 +336,24 @@ print(resultado2)
 #Operador not (unario)
 
 print (not a)
-'''
-'''
+
+
 #Ejercicio : valor dentro de un rago
 
 nro = int(input("Ingrese un número: "))
  
 salida = nro <=5 and nro >= 0
 
-print ("¿El número ingresado está en el intervalo [0, 5]?", salida)
+#print ("¿El número ingresado está en el intervalo [0, 5]?", salida)
+
+print(f'¿El número ingresado está en el intervalo? {salida}')
 '''
 '''
-Ejercicio con operador or
-Un padre puede asistir al juego de su hijo
-1) verificamos si tiene vacaciones
-2) Verificamos si tiene horas libres
-3) 
+# Ejercicio con operador or
+# Un padre puede asistir al juego de su hijo
+# 1) verificamos si tiene vacaciones
+# 2) Verificamos si tiene horas libres
+# 3) 
 
 vacaciones = False
 diadescanso = False
@@ -347,8 +363,7 @@ if vacaciones or diadescanso:
 else: 
     print("Tiene trabajo que hacer")
 
-'''
-'''
+
 Ejercicio
 Preguntar la edad al usuario
 
@@ -361,8 +376,8 @@ if edad >=20 and edad < 30 or edad >=30 and edad <40:
     print("Su edad está dentro del rango")
 else:
     print("Su edad no está dentro del rango")
-'''
-'''
+
+
 Ejercicio
 Solicitar al usuario dos valores determinar cuál es el mayor
 
@@ -387,6 +402,7 @@ ID:
 Precio
 Envio Gratuito o no?
 
+
 print("Ingrese los siguientes datos del libro")
 titulo = input("Escriba el título del libro: ")
 nroid = int(input("Digite el ID del libro: "))
@@ -397,13 +413,12 @@ if precio >= 1500:
 else:
    envioGratuito = False
 
-print(f'''
-      Título : {titulo}
-      ID : {nroid}
-      Precio : {precio}
-      Envío Gratuito: {envioGratuito}
-      ''')
-    
-'''
- 
+# print(f'''
+      # Título : {titulo}
+      # ID : {nroid}
+      # Precio : {precio}
+      # Envío Gratuito: {envioGratuito}
+      # ''')
+
+#Este formato es para la visualización con las tabulaciones    
 

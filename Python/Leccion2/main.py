@@ -4,7 +4,7 @@ Created on Wed May 11 21:45:14 2022
 
 @author: dania
 """
-'''
+
 # En esta clase vamos a ver la sentencia if else
 
 condicion = True
@@ -18,10 +18,11 @@ elif condicion == False:
 else:
     print("Condición sin especificar")
     
-#Marcando un punto de quiebre se puede ver paso a paso la evolución del código
-#Con debug... step (control f10). Probar poniendo a condición True, False y cualquier
+#Vamos a usar el punto de ruptura, normalmente se pone en la línea de una variable
+# Marcando un punto de quiebre se puede ver paso a paso la evolución del código
+#Con debug (depurar) ... step (control f10). Probar poniendo a condición True, False y cualquier
 #otra cosa
-'''
+
 #Conversión de número a texto
 '''
 num = int(input("Ingrese un número en el rango de 1 a 3: "))

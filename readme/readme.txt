@@ -15,7 +15,9 @@ ahora hice un cambio pero en la rama proyecto
 lo voy a commitear (guardar los cambios primero)
 debería agregar una imagen pero no puedo. Esto en la rama imagen.
 Ahora voy a comitearlo XD
+<<<<<<< HEAD
 esta línea es para ver si funciona lo que pienso
+
 
 
 
