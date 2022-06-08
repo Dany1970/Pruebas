@@ -43,7 +43,7 @@ else:
 
 print(f'El numero ingresado es: {num} - {numTexto}')
 '''
-#Ejercicio 1
+
 
 
 
