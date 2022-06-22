@@ -297,7 +297,7 @@ print(comparando2)
 #a practicar!
 
 
-#Ejercicio: es par o impar
+#Ejercicio 1: es par o impar
 
 numero = int(input("Ingrese un número: "))
 
@@ -306,7 +306,7 @@ if numero % 2 == 0:
 else:
     print (f"El número {numero} es impar")
 
-#Ejercicio: determinar si es mayor de edad
+#Ejercicio 2: determinar si es mayor de edad
 
 edad = int(input("¿Cuántos años tienes?: "))
 
@@ -338,7 +338,7 @@ print(resultado2)
 print (not a)
 
 
-#Ejercicio : valor dentro de un rago
+#Ejercicio : valor dentro de un rango
 
 nro = int(input("Ingrese un número: "))
  
@@ -364,7 +364,7 @@ else:
     print("Tiene trabajo que hacer")
 
 
-Ejercicio
+Ejercicio rango entre las edades
 Preguntar la edad al usuario
 
 Si la edad está dentro de los 20 o los 40 años, está dentro del rango

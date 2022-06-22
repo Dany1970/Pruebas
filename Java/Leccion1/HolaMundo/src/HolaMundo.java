@@ -1,11 +1,18 @@
-
+//Comentario de una línea
+/* comentario
+de 
+varias
+lineas
+*/
 import java.util.Scanner;
 
 public class HolaMundo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//Método main para la ejecución de nuestro programa
         /*System.out.println("Hola Mundo desde Java");//println es salto de línea
         
+        //public static void main (psvm + TAB)
+        //System.out.println (sout + TAB)
         int miVariable = 10; //definiendo una variable primitiva de tipo entera
                         // no olvidar el punto y coma como en PSEint, no así en Python
         System.out.println(miVariable);
@@ -87,7 +94,7 @@ public class HolaMundo {
         
         System.out.println("Tabulador: \t" + nombre1);//coloca un espacio de tabulación
         
-        //*iMPRTANTE*: CON format te deja todo prolijito
+        //*IMPORTANTE*: CON format te deja todo prolijito
         
         //Un espacio para volver: caracter de retroceso
         System.out.println("Retroceso: \b" + nombre);//borra un caracter hacia atrás
@@ -110,7 +117,7 @@ public class HolaMundo {
         
         System.out.println("Escriba su nombre: ");
         var nombre2 = entrada.nextLine();//Se ingresará una variable de tipo str
-        //nextLine es para leer una línea completa de la consola y detiene la ejecución
+        //nextLine es un método para leer una línea completa de la consola y detiene la ejecución
         //del programa para que el usuario ingrese datos
         System.out.println("Escriba su profesión");
         var titulo2 = entrada.nextLine();
@@ -151,10 +158,22 @@ public class HolaMundo {
        System.out.println("Numero entero long: "+ numeroEnterolong);
        System.out.println("Valor mínimo del byte: "+ Long.MIN_VALUE); 
        System.out.println("Valor máximo del byte: "+ Long.MAX_VALUE);
-         */
+       
 
         //Tipo primitivo float
         //float numFloat = 10.0F; //Notar el uso de la F (o f) para que no de error
+        // otra variante es poner (float) delante del número
+        
+       float numFloat = 3.4028235E38F; //Este es el máximo valor, si pongo uno mayor, da error 
+       System.out.println("Numero flotante: "+ numFloat);
+       System.out.println("Valor mínimo de Float: "+ Float.MIN_VALUE); 
+       System.out.println("Valor máximo de Float: "+ Float.MAX_VALUE);
+       
+       double numDouble = 1.7976931348623157E308;//Es el mayor tipo en java, no hace falta poner la D
+       System.out.println("Numero flotante tipo double: "+ numDouble);
+       System.out.println("Valor mínimo de Double: "+ Double.MIN_VALUE); 
+       System.out.println("Valor máximo de Double: "+ Double.MAX_VALUE);*/
+       
         //Clase 5:Inferencia de tipos var y tipos primitivos
         /*
         var numEntero = 20;//las literales sin punto son automáticamente de tipo entero
@@ -170,13 +189,15 @@ public class HolaMundo {
         //debug file y darle F8) 
         //Para que se tome al dato como float, hay que agregar la F (mirar 10.0F)
         /*
+        
+        //Tipos primitivos char 
         char miVariableChar = 'a';
         System.out.println("miVariableChar = " + miVariableChar);
         
         char varCaracter = '\u0024';//estamos poniendo el caracter $ con el código unicode
         System.out.println("varCaracter = " + varCaracter);
        
-        char varCaracterDecimal = 36;//estamos poniendo el caracter con valor decimal 
+        char varCaracterDecimal = 36;//estamos poniendo el caracter con valor decimal para el mismo caracter
         System.out.println("varCaracterDecimal = " + varCaracterDecimal);
         
         char varCaracterTeclado = '$';//estamos poniendo el caracter $ con el teclado 
@@ -222,7 +243,8 @@ public class HolaMundo {
         System.out.println("La bandera es roja");
     }
     //chequear cambiando la variable dura false por true
-    //Algoritmo ¿Es mayor de edad?
+    
+        //Algoritmo ¿Es mayor de edad?
     var edad = 15; //literal tener presente la inferencia de tipos
     var adulto = edad >= 18; //Esta es una expresión booleana
     if(adulto) {
@@ -242,15 +264,15 @@ public class HolaMundo {
         System.out.println("Eres menor de edad");
   }
          */
-        //Conversión de tipoa primitivos
+        //Conversión de tipos primitivos
 //    var edad = Integer.parseInt("10"); //Convierte un dato de tipo string a un tipo entero
-//    //Más adelante vamos a ver cómo crearr nuestro propios métodos. Acá
-//    //estamos usando un metodo que ya existe dentro de la clase Integer
+//    //Más adelante vamos a ver cómo crear nuestro propios métodos. Acá
+//    //estamos usando un método que ya existe dentro de la clase Integer
 //        System.out.println("edad = " + (edad + 1));//Al concatenar, suma porque son enteros
 //        
 //        //Si no ponemos el método, concatena:
 //        var edad1 = "10"; //var tipo string
-//    //Más adelante vamos a ver cómo crearr nuestro propios métodos. Acá
+//    //Más adelante vamos a ver cómo crear nuestro propios métodos. Acá
 //    //estamos usando un metodo que ya existe dentro de la clase Integer
 //        System.out.println("edad1 = " + (edad1 + 1)); //Concatena los string
 //    var valor01 = Double.parseDouble("3.1416");
@@ -258,17 +280,29 @@ public class HolaMundo {
 //        
 //    //Ahora vamos a convertir un scanner a tipo entero
 //    //Pedir un valor:
-//    var entrada = new Scanner(System.in);
+//var entrada = new Scanner(System.in);
 //        System.out.println("Digite su edad: ");
 //        edad = Integer.parseInt(entrada.nextLine());
 //        System.out.println("edad = " + edad);*/
 //        
         //Conversión de tipos primitivos en java parte 2
-//        var edadTexto = String.valueOf(10);
+//        var edadTexto = String.valueOf(10);//conversión del número entero a tipo string
+                                            //con el método valueOf
 //        System.out.println("edadTexto = " + edadTexto);
-//
-//        //falta ver más cosas de la clase 6
-//        int num1 = 5, num2 = 4;
+
+//Cómo recuperar un caracter de una cadena:
+var fraseChar = "programadores".charAt(10);
+System.out.println("fraseChar = " + fraseChar);
+
+        System.out.println("Ingrese un caracter: ");
+        fraseChar = entrada.nextLine().charAt(0); //Para seleccionar un caracter
+        //Le podemos ingresar un número, pero lo que recupera es una cadena.
+        System.out.println("fraseChar = " + fraseChar);
+
+//Acá hicimos el ejercicio 1 en otro archivo
+        
+ //Clase 7
+//        int num1 = 5, num2 = 4; //Asignando variables en una sola línea 
 //        var solucion = num1 + num2;
 //        System.out.println("solucion de la suma = " + solucion);
 //
@@ -312,8 +346,10 @@ public class HolaMundo {
         
         varNum1 %= 2;
         System.out.println("varNum1 = " + varNum1);
-         */
-       //CLASE 7: 27/MAYO
+         
+        Para terminar, se hace el ejercicio 2, en otro archivo
+        */
+       //CLASE 8: 27/MAYO
         //Operadores unarios: Cambio de signo
        /*
         var varA = 7;
@@ -389,7 +425,8 @@ public class HolaMundo {
         }
      */   
    // Practicar el algoritmo de mayor de edad con los operadores relacionales
-      //oPERADORES CONDICIONALES and (&&) y or (||)
+   
+   //OPERADORES CONDICIONALES and (&&) y or (||)
     /*  
       var valorA = 7;
       var valorMinimo = 0;
@@ -433,26 +470,4 @@ public class HolaMundo {
     var solucionAritmetica = 4 + 5 * 6 / 3;
         System.out.println("solucionAritmetica = " + solucionAritmetica);
 */
-//Ejercicio: área del rectángulo
-//Se solicita calcular el área y el perímetro de un rectángulo para esto deberemos 
-//crear las variables alto y ancho ambas de tipo int. El usuario debe proporcionar
-//los valores de alto, ancho y luego imprimir el resultado, en el sgte formato
-//(recuerden no usar acentos, respetar los espacios, mayúsculas, minúsculas y los 
-//saltos de línea): Digite el alto del rectángulo. Digite el ancho del rectángulo
-//. 
-  //Activamos un objeto de la
-        claseScanner  = new Scanner(System.in); 
-        
-        
-        System.out.println("Escriba su nombre: ");
-        var nombre2 = entrada.nextLine();//Se ingresará una variable de tipo str
-        //nextLine es para leer una línea completa de la consola y detiene la ejecución
-        //del programa para que el usuario ingrese datos
-        System.out.println("Escriba su profesión");
-        var titulo2 = entrada.nextLine();
-        System.out.println("Resultado: " +titulo2 +" " +nombre2);
-         */
-    
-    }
-
-}
+}}

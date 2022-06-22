@@ -44,7 +44,18 @@ else:
 print(f'El numero ingresado es: {num} - {numTexto}')
 '''
 
+condicion = True
+# if condicion:
+#     print("Condición verdadera")
+# else:
+#     print("Condición falsa")
 
+#De otra manera, con el operador ternario (para códigos cortos):
+
+print("Condición verdadera") if condicion else print("Condición falsa")
+
+
+    
 
 
 
