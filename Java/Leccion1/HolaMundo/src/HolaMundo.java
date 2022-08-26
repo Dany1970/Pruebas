@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class HolaMundo {
 
     public static void main(String[] args) {//Método main para la ejecución de nuestro programa
-        /*System.out.println("Hola Mundo desde Java");//println es salto de línea
+        System.out.println("Hola Mundo desde Java");//println es salto de línea
         
         //public static void main (psvm + TAB)
         //System.out.println (sout + TAB)
@@ -59,7 +59,7 @@ public class HolaMundo {
         6- No se puede comenzar con numeral (es ilegal)
         7- No puede ser una variable reservada (ver archivo)
         
-        
+        */
         
         //Ejercicio de concatenación
       
@@ -78,7 +78,7 @@ public class HolaMundo {
         primero y luego números, los concatena todos como cadenas. Si se desea 
         concatenar y sumar, se deben colocar los números entre paréntesis.
         Ejemplo: 
-        
+        */
         System.out.println(nombre + a + b);
         System.out.println(nombre + (a + b));
         
@@ -116,14 +116,14 @@ public class HolaMundo {
         // ya que identificará las entradas de usuario por consola:
         
         System.out.println("Escriba su nombre: ");
-        var nombre2 = entrada.nextLine();//Se ingresará una variable de tipo str
+        var nombre2 = consola.nextLine();//Se ingresará una variable de tipo str
         //nextLine es un método para leer una línea completa de la consola y detiene la ejecución
         //del programa para que el usuario ingrese datos
         System.out.println("Escriba su profesión");
-        var titulo2 = entrada.nextLine();
+        var titulo2 = consola.nextLine();
         System.out.println("Resultado: " +titulo2 +" " +nombre2);
-         */
- /*
+        
+ 
         //Tipos primitivos
         byte numeroEnteroByte = 10; //Una literal de tipo entero primitivo byte.
         System.out.println("Numero entero byte: "+ numeroEnteroByte);
@@ -161,7 +161,7 @@ public class HolaMundo {
        
 
         //Tipo primitivo float
-        //float numFloat = 10.0F; //Notar el uso de la F (o f) para que no de error
+       float numFloat = 10.0F; //Notar el uso de la F (o f) para que no de error
         // otra variante es poner (float) delante del número
         
        float numFloat = 3.4028235E38F; //Este es el máximo valor, si pongo uno mayor, da error 
@@ -175,7 +175,7 @@ public class HolaMundo {
        System.out.println("Valor máximo de Double: "+ Double.MAX_VALUE);*/
        
         //Clase 5:Inferencia de tipos var y tipos primitivos
-        /*
+        
         var numEntero = 20;//las literales sin punto son automáticamente de tipo entero
         System.out.println("numEntero = " +numEntero);
         
@@ -184,11 +184,11 @@ public class HolaMundo {
         
         var numDouble = 10.0;
         System.out.println("numDouble = " + numDouble);
-         */
+         
         //Para hacer el paso a paso (step over, marcar el punto de quiebre, seleccionar 
         //debug file y darle F8) 
         //Para que se tome al dato como float, hay que agregar la F (mirar 10.0F)
-        /*
+        
         
         //Tipos primitivos char 
         char miVariableChar = 'a';
@@ -228,11 +228,11 @@ public class HolaMundo {
         //le corresponde en la tabla
         //En el segundo caso, igual
         
-         */
+         
         //Tipos primitivos booleanos
         // Sólo tienen dos valores True False
         //creamos una variable:
-        /*
+        
     var varBool = false; //Nótese la letra f (o t) minúscula
     System.out.println("varBool = " + varBool);
     
@@ -263,32 +263,32 @@ public class HolaMundo {
     else{
         System.out.println("Eres menor de edad");
   }
-         */
+         
         //Conversión de tipos primitivos
-//    var edad = Integer.parseInt("10"); //Convierte un dato de tipo string a un tipo entero
+   var edad = Integer.parseInt("10"); //Convierte un dato de tipo string a un tipo entero
 //    //Más adelante vamos a ver cómo crear nuestro propios métodos. Acá
 //    //estamos usando un método que ya existe dentro de la clase Integer
-//        System.out.println("edad = " + (edad + 1));//Al concatenar, suma porque son enteros
+        System.out.println("edad = " + (edad + 1));//Al concatenar, suma porque son enteros
 //        
 //        //Si no ponemos el método, concatena:
-//        var edad1 = "10"; //var tipo string
+        var edad1 = "10"; //var tipo string
 //    //Más adelante vamos a ver cómo crear nuestro propios métodos. Acá
 //    //estamos usando un metodo que ya existe dentro de la clase Integer
-//        System.out.println("edad1 = " + (edad1 + 1)); //Concatena los string
-//    var valor01 = Double.parseDouble("3.1416");
-//        System.out.println("valor01 = " + valor01);
+        System.out.println("edad1 = " + (edad1 + 1)); //Concatena los string
+    var valor01 = Double.parseDouble("3.1416");
+        System.out.println("valor01 = " + valor01);
 //        
 //    //Ahora vamos a convertir un scanner a tipo entero
 //    //Pedir un valor:
-//var entrada = new Scanner(System.in);
-//        System.out.println("Digite su edad: ");
-//        edad = Integer.parseInt(entrada.nextLine());
-//        System.out.println("edad = " + edad);*/
+var entrada = new Scanner(System.in);
+        System.out.println("Digite su edad: ");
+        edad = Integer.parseInt(entrada.nextLine());
+        System.out.println("edad = " + edad);*/
 //        
         //Conversión de tipos primitivos en java parte 2
-//        var edadTexto = String.valueOf(10);//conversión del número entero a tipo string
+        var edadTexto = String.valueOf(10);//conversión del número entero a tipo string
                                             //con el método valueOf
-//        System.out.println("edadTexto = " + edadTexto);
+        System.out.println("edadTexto = " + edadTexto);
 
 //Cómo recuperar un caracter de una cadena:
 var fraseChar = "programadores".charAt(10);
@@ -302,32 +302,32 @@ System.out.println("fraseChar = " + fraseChar);
 //Acá hicimos el ejercicio 1 en otro archivo
         
  //Clase 7
-//        int num1 = 5, num2 = 4; //Asignando variables en una sola línea 
-//        var solucion = num1 + num2;
-//        System.out.println("solucion de la suma = " + solucion);
-//
-//        solucion = num1 - num2;
-//        System.out.println("solucion de la resta = " + solucion);
-//
-//        solucion = num1 * num2;
-//        System.out.println("solucion de la multiplicación = " + solucion);
-//
-//        solucion = num1 / num2;//sólo la parte entera porque son var de tipo int
-//        System.out.println("solucion de la división = " + solucion);
-//
-//        var solucion2 = 3.4 / num2;//acá ya maneja tipo double al incorporarle el valor tipo double
-//        System.out.println("Resultado de la división = " + solucion2);
-//
-//        solucion = num1 % num2;//Guarda el residuo entero de la divisón
-//        System.out.println("solucion = " + solucion);
-//
-//        if (num1 % 2 == 0) {
-//            System.out.println("Es un número par");
-//        } else {
-//            System.out.println("Es un número impar");//probar con num2
+        int num1 = 5, num2 = 4; //Asignando variables en una sola línea 
+        var solucion = num1 + num2;
+        System.out.println("solucion de la suma = " + solucion);
+
+        solucion = num1 - num2;
+        System.out.println("solucion de la resta = " + solucion);
+
+        solucion = num1 * num2;
+        System.out.println("solucion de la multiplicación = " + solucion);
+
+        solucion = num1 / num2;//sólo la parte entera porque son var de tipo int
+        System.out.println("solucion de la división = " + solucion);
+
+        var solucion2 = 3.4 / num2;//acá ya maneja tipo double al incorporarle el valor tipo double
+        System.out.println("Resultado de la división = " + solucion2);
+
+        solucion = num1 % num2;//Guarda el residuo entero de la divisón
+        System.out.println("solucion = " + solucion);
+
+        if (num1 % 2 == 0) {
+            System.out.println("Es un número par");
+        } else {
+            System.out.println("Es un número impar");//probar con num2
         //En este caso las llaves no son necesarias, pero no entendí bien por qué? 
         //supuestamente después lo veremos
-        /*        
+               
         int varNum1 = 5, varNum2 = 4;
         int varNum3 = varNum1 - 6 + varNum2;
             System.out.println("varNum3 = " + varNum3);
@@ -347,11 +347,11 @@ System.out.println("fraseChar = " + fraseChar);
         varNum1 %= 2;
         System.out.println("varNum1 = " + varNum1);
          
-        Para terminar, se hace el ejercicio 2, en otro archivo
-        */
+        //Para terminar, se hace el ejercicio 2, en otro archivo
+        
        //CLASE 8: 27/MAYO
         //Operadores unarios: Cambio de signo
-       /*
+       
         var varA = 7;
         var varB = -varA;
         System.out.println("varA= " + varA);
@@ -423,11 +423,11 @@ System.out.println("fraseChar = " + fraseChar);
         } else {
             System.out.println("El número es impar");
         }
-     */   
+        
    // Practicar el algoritmo de mayor de edad con los operadores relacionales
    
    //OPERADORES CONDICIONALES and (&&) y or (||)
-    /*  
+      
       var valorA = 7;
       var valorMinimo = 0;
       var valorMaximo = 10;
@@ -456,10 +456,10 @@ System.out.println("fraseChar = " + fraseChar);
     var numeroT = 7;
     resultadoT = (numeroT % 2 == 0) ? "Par" : "Impar";
         System.out.println("El número es " + resultadoT);        
-     */
+    
 
      //Prioridad de los operadores
-/*
+
     var x = 5;
     var y = 10;
     var z = ++x + y--;
@@ -469,5 +469,6 @@ System.out.println("fraseChar = " + fraseChar);
     
     var solucionAritmetica = 4 + 5 * 6 / 3;
         System.out.println("solucionAritmetica = " + solucionAritmetica);
-*/
+
+        //Para terminar, hacer ejercicios 3 y 4
 }}
