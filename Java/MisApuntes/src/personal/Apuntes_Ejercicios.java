@@ -7,7 +7,7 @@ public class Apuntes_Ejercicios {
     /* VER ESTA PÁGINA DE CURSO: https://www.aprenderaprogramar.com/index.php?option=com_content&view=category&id=68&Itemid=188
     Para comenzar un nuevo archivo, se inicia un nuevo proyecto, en la ventana que se abre
     desmarcar el main (al final) y colocar un nombre. Luego se le cambia el nombre al paquete
-    default para personalizarlo y por último, dentro de ese paquete se inicia una nueva "clase"
+    default para personalizarlo(new JavaProject) y por último, dentro de ese paquete se inicia una nueva "clase" (New Class)
     que sería como un nuevo "archivo", colocándole un nombre apropiado.
     Notar que, como ya hemos inicializado GIT en la carpeta donde estoy trabajando (Java), aparece 
     en cada item un ! en celeste indicando que ha habido cambios y estos están sin commitear
