@@ -2,16 +2,14 @@
 """
 Created on Wed Sep  7 10:36:26 2022
 
-@author: dania
+@author: Daniela Armijo
 """
 
 # Ejercicio 1: Iterar un rango de 0 a 10 e imprimir números divisobles entre 3
 
 #Primero llenamos la lista con los números del 0 al 10:
-#inicilizamos dos listas vacías: una va a contener todos los números y la otra 
-#sólo los divisibles por tres:
+#inicilizamos dos listas vacías: una va a contener todos los números y la otra sólo los divisibles por tres:
    
-  
 lista = [ ]
 div3 = [ ]
 

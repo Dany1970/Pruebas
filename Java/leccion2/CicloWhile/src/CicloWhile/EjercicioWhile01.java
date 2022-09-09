@@ -21,15 +21,7 @@ do{
     System.out.println("contador = " + contador);
     contador ++;
 }while(contador < 7);
-
-//Ciclo for: cuando la condición se cumple, se comienza 
-//un incremento o decremento hasta que la condición sea falsa
-
-for(var contando = 0; contando < 7 ; contando++){ //otra forma for(int i = 0...)
-// inicializamos el contador y luego va la condición y el incremento
-//separados por punto y coma
-//se pueden recorrer arreglos, por ejemplo con un for
-    System.out.println("contando = " + contando);
-} 
 }
+{
+    
 }
