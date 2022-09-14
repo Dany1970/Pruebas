@@ -357,26 +357,70 @@ print(4 in tupla) # Acción booleana, su respuesta es de tipo
 
 #Ejercicio: Ingresar elementos al diccionario seleccionArgentina:
 # Armé un diccionario un poco diferente con otros datos de los jugadores que econtré en Wikipedia.
-seleccionArgentina = {
-    10:{'Nombre':'Lionel Messi','Edad':35,'Goles':86,'Equipo':'PSG', 'Posición': 'Delantero'},
-    11:{'Nombre':'Ángel Di María','Edad':34,'Goles':25,'Equipo':'Juventus', 'Posición': 'Delantero'},
-    21:{'Nombre':'Paulo Dybala','Edad':28,'Goles':3,'Equipo':'AS Roma', 'Posición': 'Delantero'},
-    19:{'Nombre':'Nicolás Otamendi','Edad':34,'Goles':4,'Equipo':'Benfica', 'Posición': 'Defensor'},
-    1:{'Nombre':'Franco Armani','Edad':35,'Goles':0,'Equipo':'River Plate', 'Posición': 'Arquero'},
-    13:{'Nombre':'Cristian Romero','Edad':24,'Goles':0,'Equipo':'Tottenham', 'Posición': 'Defensor'},
-    8:{'Nombre':'Marcos Acuña','Edad':30,'Goles':0,'Equipo':'Sevilla', 'Posición': 'Defensor'},
-    3:{'Nombre':'Nicolás Tagliafico','Edad':30,'Goles':0,'Equipo':'Olympique', 'Posición': 'Delfensor'},
-    23:{'Nombre':'Emiliano Martínez','Edad':29,'Goles':0,'Equipo':'Aston Villa', 'Posición': 'Arquero'},
-        }
-print(seleccionArgentina)
-print(seleccionArgentina[21])
+# seleccionArgentina = {
+#     10:{'Nombre':'Lionel Messi','Edad':35,'Goles':86,'Equipo':'PSG', 'Posición': 'Delantero'},
+#     11:{'Nombre':'Ángel Di María','Edad':34,'Goles':25,'Equipo':'Juventus', 'Posición': 'Delantero'},
+#     21:{'Nombre':'Paulo Dybala','Edad':28,'Goles':3,'Equipo':'AS Roma', 'Posición': 'Delantero'},
+#     19:{'Nombre':'Nicolás Otamendi','Edad':34,'Goles':4,'Equipo':'Benfica', 'Posición': 'Defensor'},
+#     1:{'Nombre':'Franco Armani','Edad':35,'Goles':0,'Equipo':'River Plate', 'Posición': 'Arquero'},
+#     13:{'Nombre':'Cristian Romero','Edad':24,'Goles':0,'Equipo':'Tottenham', 'Posición': 'Defensor'},
+#     8:{'Nombre':'Marcos Acuña','Edad':30,'Goles':0,'Equipo':'Sevilla', 'Posición': 'Defensor'},
+#     3:{'Nombre':'Nicolás Tagliafico','Edad':30,'Goles':0,'Equipo':'Olympique', 'Posición': 'Delfensor'},
+#     23:{'Nombre':'Emiliano Martínez','Edad':29,'Goles':0,'Equipo':'Aston Villa', 'Posición': 'Arquero'},
+#         }
+# print(seleccionArgentina)
+# print(seleccionArgentina[21])
 
-#Vamos a recorrer el diccionario
+# #Vamos a recorrer el diccionario
 
-for llave in seleccionArgentina:
-    print(llave)
+# for llave in seleccionArgentina:
+#     print(llave)
 
-for llave, valor in seleccionArgentina.items():
-    print(llave, valor)
+# for llave, valor in seleccionArgentina.items():
+#     print(llave, valor)
 
-print(f'Tenemos cargados en el diccionario la cantidad de {len(seleccionArgentina)} jugadores')
+# print(f'Tenemos cargados en el diccionario la cantidad de {len(seleccionArgentina)} jugadores')
+
+# SETIEMBRE
+# Método con listas llamado PILAS
+
+pila = [1, 2, 3] #Ingresamos una lista
+#Si hacemos una pila, ponemos una cosa arriba de otra, no podemos sacar nada más que el último imgresado
+#Agregamos elemento
+pila.append(4)
+pila.append(5)
+print(pila)
+
+# Sacamos elementos desde el final
+elementoBorrado = pila.pop() #Elimina el último elemento de nuestra lista
+print('Sacamos el elemento', elementoBorrado, 'y ahora la pila quedó así', pila)
+
+# Método de listas llamado colas
+
+# Estructuras de datos de tipo fifo (fisrt input/fisrtOutput)
+cola = ['Dani', 'Jorge']
+cola.append('Viki')
+cola.append('Kato')
+print(cola)
+
+#Ahora sacamos elementos
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+
+
+
+
+
+
+
+
