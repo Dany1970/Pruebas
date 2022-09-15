@@ -71,7 +71,7 @@
 # del lista[1]
 # print(lista)
 
-# #Eliminar borrar o limiar toda la lista
+# #Eliminar borrar o limpiar toda la lista
 # lista.clear()
 # print(lista) #Aparecen los corchetes vacíos
 
@@ -245,55 +245,55 @@
 
 # del diccionario # el diccionario se borró
 
-# Otras cuestiones relacionadas con LISTAS
-#Concatenamos Listas
+# # Otras cuestiones relacionadas con LISTAS
+# #Concatenamos Listas
 
-lista1 = [1,2,3,1]
-lista2 = [4,5,6,1]
-lista3 = lista1+lista2
-print(lista3)
+# lista1 = [1,2,3,1]
+# lista2 = [4,5,6,1]
+# lista3 = lista1+lista2
+# print(lista3)
 
-# Para agregar varios elementos en una lista 
-#usamos EXTEND
-lista3.extend([7,8,9,1])
-print(lista3)
+# # Para agregar varios elementos en una lista 
+# #usamos EXTEND
+# lista3.extend([7,8,9,1])
+# print(lista3)
 
-#Función para ubicar en qué índice está el valor ingresado
-print(lista3.index(5))
-# print(lista3.index(0)) daría error porque 0 no está en la lista
+# #Función para ubicar en qué índice está el valor ingresado
+# print(lista3.index(5))
+# # print(lista3.index(0)) daría error porque 0 no está en la lista
 
-# Cómo saber cúantos elementos iguales tiene una lista
-print(lista3.count(1))
+# # Cómo saber cúantos elementos iguales tiene una lista
+# print(lista3.count(1))
 
-#Para invertir la lista
-lista3.reverse()
-print(lista3)
+# #Para invertir la lista
+# lista3.reverse()
+# print(lista3)
 
-#Para que una lista se multiplique repitiendo sus elementos:}
-lista3 = lista3 * 2
-print(lista3)
+# #Para que una lista se multiplique repitiendo sus elementos:}
+# lista3 = lista3 * 2
+# print(lista3)
 
-#Métodos de ordenamiento
-#Con la función sort 
-lista3.sort()
-print(lista3)
+# #Métodos de ordenamiento
+# #Con la función sort 
+# lista3.sort()
+# print(lista3)
 
-#de mayor a menor
+# #de mayor a menor
 
-lista3.sort(reverse = True)
-print(lista3)
+# lista3.sort(reverse = True)
+# print(lista3)
 
-# Repaso de tuplas
+# # Repaso de tuplas
 
-tupla = (4, 'Hola', 9.7, {1,2,3}, 4, 'Hola')
-print(tupla)
+# tupla = (4, 'Hola', 9.7, {1,2,3}, 4, 'Hola')
+# print(tupla)
 
-#algunas funciones que se pueden usar con las tuplas
+# #algunas funciones que se pueden usar con las tuplas
 
-print(4 in tupla) # Acción booleana, su respuesta es de tipo
-                    #booleana
-# Lo que podemos usar dentro de tuplas son: index, count, len 
-# las tupplas se pueden convertir a listas y viceversa
+# print(4 in tupla) # Acción booleana, su respuesta es de tipo
+#                     #booleana
+# # Lo que podemos usar dentro de tuplas son: index, count, len 
+# # las tupplas se pueden convertir a listas y viceversa
 
 
 #Repaso del tipo set o conjunto
@@ -358,64 +358,74 @@ print(4 in tupla) # Acción booleana, su respuesta es de tipo
 #Ejercicio: Ingresar elementos al diccionario seleccionArgentina:
 # Armé un diccionario un poco diferente con otros datos de los jugadores que econtré en Wikipedia.
 # seleccionArgentina = {
-#     10:{'Nombre':'Lionel Messi','Edad':35,'Goles':86,'Equipo':'PSG', 'Posición': 'Delantero'},
-#     11:{'Nombre':'Ángel Di María','Edad':34,'Goles':25,'Equipo':'Juventus', 'Posición': 'Delantero'},
-#     21:{'Nombre':'Paulo Dybala','Edad':28,'Goles':3,'Equipo':'AS Roma', 'Posición': 'Delantero'},
-#     19:{'Nombre':'Nicolás Otamendi','Edad':34,'Goles':4,'Equipo':'Benfica', 'Posición': 'Defensor'},
-#     1:{'Nombre':'Franco Armani','Edad':35,'Goles':0,'Equipo':'River Plate', 'Posición': 'Arquero'},
-#     13:{'Nombre':'Cristian Romero','Edad':24,'Goles':0,'Equipo':'Tottenham', 'Posición': 'Defensor'},
-#     8:{'Nombre':'Marcos Acuña','Edad':30,'Goles':0,'Equipo':'Sevilla', 'Posición': 'Defensor'},
-#     3:{'Nombre':'Nicolás Tagliafico','Edad':30,'Goles':0,'Equipo':'Olympique', 'Posición': 'Delfensor'},
-#     23:{'Nombre':'Emiliano Martínez','Edad':29,'Goles':0,'Equipo':'Aston Villa', 'Posición': 'Arquero'},
-#         }
+    10:{'Nombre':'Lionel Messi','Edad':35,'Goles':86,'Equipo':'PSG', 'Posición': 'Delantero'},
+    11:{'Nombre':'Ángel Di María','Edad':34,'Goles':25,'Equipo':'Juventus', 'Posición': 'Delantero'},
+    21:{'Nombre':'Paulo Dybala','Edad':28,'Goles':3,'Equipo':'AS Roma', 'Posición': 'Delantero'},
+    19:{'Nombre':'Nicolás Otamendi','Edad':34,'Goles':4,'Equipo':'Benfica', 'Posición': 'Defensor'},
+    1:{'Nombre':'Franco Armani','Edad':35,'Goles':0,'Equipo':'River Plate', 'Posición': 'Arquero'},
+    13:{'Nombre':'Cristian Romero','Edad':24,'Goles':0,'Equipo':'Tottenham', 'Posición': 'Defensor'},
+    8:{'Nombre':'Marcos Acuña','Edad':30,'Goles':0,'Equipo':'Sevilla', 'Posición': 'Defensor'},
+    3:{'Nombre':'Nicolás Tagliafico','Edad':30,'Goles':0,'Equipo':'Olympique', 'Posición': 'Delfensor'},
+    23:{'Nombre':'Emiliano Martínez','Edad':29,'Goles':0,'Equipo':'Aston Villa', 'Posición': 'Arquero'},
+        }
 # print(seleccionArgentina)
 # print(seleccionArgentina[21])
 
 # #Vamos a recorrer el diccionario
 
 # for llave in seleccionArgentina:
-#     print(llave)
+#     print(llave) # Imprime sólo la clave
 
 # for llave, valor in seleccionArgentina.items():
-#     print(llave, valor)
+#     print(llave, valor) #Imprime clave y valor
 
 # print(f'Tenemos cargados en el diccionario la cantidad de {len(seleccionArgentina)} jugadores')
+# # Imprime la cantidad de elementos (clave, valor) en el diccionario
 
-# SETIEMBRE
-# Método con listas llamado PILAS
+# Otra forma de recorrer el diccionario: 
 
-pila = [1, 2, 3] #Ingresamos una lista
-#Si hacemos una pila, ponemos una cosa arriba de otra, no podemos sacar nada más que el último imgresado
-#Agregamos elemento
-pila.append(4)
-pila.append(5)
-print(pila)
+# for i in seleccionArgentina:
+    #print(f'{i} -> {seleccionArgentina[i]}')# Imprime las claves (i) 
+                                            # y los valores (seleccionArgentina[i])
+    # print(seleccionArgentina[i]) # Imrime los valores
+    
+    
+# # SETIEMBRE
+# # Método con listas llamado PILAS
 
-# Sacamos elementos desde el final
-elementoBorrado = pila.pop() #Elimina el último elemento de nuestra lista
-print('Sacamos el elemento', elementoBorrado, 'y ahora la pila quedó así', pila)
+# pila = [1, 2, 3] #Ingresamos una lista
+# #Si hacemos una pila, ponemos una cosa arriba de otra, no podemos sacar nada más que el último imgresado
+# #Agregamos elemento
+# pila.append(4)
+# pila.append(5)
+# print(pila)
 
-# Método de listas llamado colas
+# # Sacamos elementos desde el final
+# elementoBorrado = pila.pop() #Elimina el último elemento de nuestra lista
+# print('Sacamos el elemento', elementoBorrado, 'y ahora la pila quedó así', pila)
 
-# Estructuras de datos de tipo fifo (fisrt input/fisrtOutput)
-cola = ['Dani', 'Jorge']
-cola.append('Viki')
-cola.append('Kato')
-print(cola)
+# # Método de listas llamado colas
 
-#Ahora sacamos elementos
+# # Estructuras de datos de tipo fifo (fisrt input/fisrtOutput)
+# cola = ['Dani', 'Jorge']
+# cola.append('Viki')
+# cola.append('Kato')
+# print(cola)
 
-seRetira = cola.pop(0)
-print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+# #Ahora sacamos elementos
 
-seRetira = cola.pop(0)
-print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+# seRetira = cola.pop(0)
+# print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
 
-seRetira = cola.pop(0)
-print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+# seRetira = cola.pop(0)
+# print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
 
-seRetira = cola.pop(0)
-print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+# seRetira = cola.pop(0)
+# print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+
+# seRetira = cola.pop(0)
+# print(f'Atendido el cliente {seRetira}, quedan en la cola {cola}')
+
 
 
 
