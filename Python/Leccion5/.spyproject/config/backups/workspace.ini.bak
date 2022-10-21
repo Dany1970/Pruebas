@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['Ejercicio01.py']
+recent_files = ['main.py.py', '..\\Leccion4\\Ejercicio 06.py', '..\\Leccion4\\Ejercicio 07.py', '..\\Leccion4\\Ejercicio 08.py', '..\\Leccion4\\Ejercicio 09.py', '..\\Leccion4\\Ejercicio 10.py', '..\\Leccion4\\clase1.py', '..\\Leccion4\\Ejercicio 11.py', '..\\..\\..\\Downloads\\ISI\\Física\\cinematica00.py', '..\\..\\..\\Downloads\\ISI\\integral definida.py']
 

@@ -13,7 +13,7 @@ public class PruebaPersona {
         Persona persona2 = new Persona();
         System.out.println("persona2 = " +persona2);
         System.out.println("persona1 = " + persona1);
-        persona2.obtenerInformación();
+        persona2.obtenerInformación(); //No se han definido aún, por eso da null
         persona2.nombre = "Jorge";
         persona2.apellido = "Lista";
         persona2.obtenerInformación();

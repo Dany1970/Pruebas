@@ -6,7 +6,7 @@ Created on Thu Sep 15 12:42:43 2022
 """
 
 # Ejercicio 7: Juego adivina el número
-# Se debe generar un número aleatorio entre 1 y 100, y luego ir pidiendo números indocando
+# Se debe generar un número aleatorio entre 1 y 100, y luego ir pidiendo números indicando
 # es mayor, es menor, según sea mayor o menor con respecto a N. El proceso termina cuando
 # el usuario acierta y allí se debe mostrar el número de aciertos
 

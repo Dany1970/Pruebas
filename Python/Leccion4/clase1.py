@@ -293,7 +293,7 @@
 # print(4 in tupla) # Acción booleana, su respuesta es de tipo
 #                     #booleana
 # # Lo que podemos usar dentro de tuplas son: index, count, len 
-# # las tupplas se pueden convertir a listas y viceversa
+# # las tuplas se pueden convertir a listas y viceversa
 
 
 #Repaso del tipo set o conjunto
