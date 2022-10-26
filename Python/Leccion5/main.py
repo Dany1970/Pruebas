@@ -112,17 +112,45 @@ Created on Thu Sep 15 11:02:09 2022
 # listarNombres('Dani','Jorge','Viki','Kato')
 
         
+#Trabajando una función por argumentos variables con diccionarios
+def listarTerminos(**terminos): #Comúnmente se usa **kwargs (K=llaves, w=palabras) pero se puede usar cualquier nomnbre
+    for llave, valor in terminos.items():
+        print(f'{llave}: {valor}')
+        
+listarTerminos() #No se recibe nada, nada va a pasar
+listarTerminos(IDE = 'Integrated Development Environment', PK = 'Primary Key')
 
 
+#Cuando la función recibe como argumento una lista:
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
 
+nombres2 = ['Tito', 'Pedro', 'Carlos']
+desplegarNombres(nombres2)
 
+# si quisiéramos usar una función similar para desplegar una lista de múmeros, por ejemplo, no lo hace
+# desplegarNombres(1, 10) #no funciona
+#pero podemos pasarlos cono tupla o como lista, ahí si, porque estos objetos son interables
+desplegarNombres([1,10]) #tupla
+desplegarNombres((1,10)) #lista
 
+# Funciones recursivas
 
+def factorial(numero):
+    if numero == 1:
+        return numero
+    else:
+        return numero*factorial(numero-1)
 
+#Con código duro    
+resultado = factorial(5)
+print(f'el factorial del numpero 5 es {resultado}')
 
+#Con ingreso de un número por el usuario
 
-
-
-
+print("Cálculo del factorial de un número entero")
+nro = int(input('Ingrese un número entero positivo: '))
+print(f'El factorial de {nro}, ({nro}!) es {factorial(nro)}')
 
 
