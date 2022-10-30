@@ -6,7 +6,7 @@ public class Aritmetica {
     //Atributos de la clase
     int a;
     int b;
-    //El constructor es un método especial. Cunple tres objetivos:
+    //El constructor es un método especial. Cumple tres objetivos:
     // - Construye un objeto
     // - Reserva un espacio de memoria
     // - Inicializa los atributos de la clase
