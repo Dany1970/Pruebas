@@ -17,13 +17,14 @@ public class Ciclos07 {
             System.out.println("Escriba un número: ");
      
             numero = Integer.parseInt(entrada.nextLine());
+            if (numero <=0){
+                break;
+            }
             suma += numero;        
             contador ++;
             
         }while(numero >= 0);
-        suma -=numero; //Esto es lo que se me ocurrió pata que funcione
-        contador --;
-  
+          
         System.out.println("El promedio de los números ingresados es " +suma/contador);
     
     }
