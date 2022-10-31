@@ -10,7 +10,7 @@ public class Aritmetica {
     // - Construye un objeto
     // - Reserva un espacio de memoria
     // - Inicializa los atributos de la clase
-    public Aritmetica(){//Constructor 1
+    public Aritmetica(){//Constructor 1 vacio
         System.out.println("Se está ejecutando el constructor número uno");
     }
     //Estamos viendo lo que se llama sobrecarga de constructores

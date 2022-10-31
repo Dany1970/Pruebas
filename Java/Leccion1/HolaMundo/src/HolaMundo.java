@@ -1,16 +1,18 @@
+
 //Comentario de una línea
 /* comentario
 de 
 varias
 lineas
 */
+/*
 import java.util.Scanner;
 
 public class HolaMundo {
 
     public static void main(String[] args) {//Método main para la ejecución de nuestro programa
         System.out.println("Hola Mundo desde Java");//println es salto de línea
-        
+       
         //public static void main (psvm + TAB)
         //System.out.println (sout + TAB)
         int miVariable = 10; //definiendo una variable primitiva de tipo entera
@@ -59,7 +61,7 @@ public class HolaMundo {
         6- No se puede comenzar con numeral (es ilegal)
         7- No puede ser una variable reservada (ver archivo)
         
-        */
+        
         
         //Ejercicio de concatenación
       
@@ -78,7 +80,7 @@ public class HolaMundo {
         primero y luego números, los concatena todos como cadenas. Si se desea 
         concatenar y sumar, se deben colocar los números entre paréntesis.
         Ejemplo: 
-        */
+        
         System.out.println(nombre + a + b);
         System.out.println(nombre + (a + b));
         
@@ -172,7 +174,7 @@ public class HolaMundo {
        double numDouble = 1.7976931348623157E308;//Es el mayor tipo en java, no hace falta poner la D
        System.out.println("Numero flotante tipo double: "+ numDouble);
        System.out.println("Valor mínimo de Double: "+ Double.MIN_VALUE); 
-       System.out.println("Valor máximo de Double: "+ Double.MAX_VALUE);*/
+       System.out.println("Valor máximo de Double: "+ Double.MAX_VALUE);
        
         //Clase 5:Inferencia de tipos var y tipos primitivos
         
@@ -283,7 +285,7 @@ public class HolaMundo {
 var entrada = new Scanner(System.in);
         System.out.println("Digite su edad: ");
         edad = Integer.parseInt(entrada.nextLine());
-        System.out.println("edad = " + edad);*/
+        System.out.println("edad = " + edad);
 //        
         //Conversión de tipos primitivos en java parte 2
         var edadTexto = String.valueOf(10);//conversión del número entero a tipo string
@@ -471,4 +473,5 @@ System.out.println("fraseChar = " + fraseChar);
         System.out.println("solucionAritmetica = " + solucionAritmetica);
 
         //Para terminar, hacer ejercicios 3 y 4
-}}
+        }}}
+*/

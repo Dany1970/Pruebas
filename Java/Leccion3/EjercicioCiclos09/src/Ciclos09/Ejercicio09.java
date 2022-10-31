@@ -8,7 +8,8 @@ public class Ejercicio09 {
 EjercicioCiclos09:
 Pedir el día, mes y año de una fecha e indicar si la fecha es correcta
 Suponiendo que todos los meses son de 30 días.
-Cuando tenga tiempo, lo voy a modificar para distintos meses, y otra cosa que me pareció, comprobar antes de seguir
+Cuando tenga tiempo, lo voy a modificar para distintos meses, y otra cosa que me 
+pareció, comprobar antes de seguir
 ejecutando el código , el error, para ahorrar tiempo de ejecución. 
 */
     public static void main(String[] args) {
@@ -21,22 +22,26 @@ ejecutando el código , el error, para ahorrar tiempo de ejecución.
             if((dia != 0) && (dia <= 30)){
                     if((mes != 0) && (mes <= 12)){
                         if((anio !=0) && (anio <= 2022)){
-                            JOptionPane.showMessageDialog(null, "La fecha ingresada es: "+dia+"/"+mes+"/"+anio);
+                            JOptionPane.showMessageDialog(null, "La fecha ingresada es: "
+                                    + ""+dia+"/"+mes+"/"+anio);
                         }
                         else{
-                            JOptionPane.showMessageDialog(null, "Fecha incorrecta, año incorrecto");
+                            JOptionPane.showMessageDialog(null, "Fecha incorrecta, "
+                                    + "año incorrecto");
                         }
                         
                                 }
                         else{
-                                JOptionPane.showMessageDialog(null, "Fecha incorrecta, mes incorrecto");
+                                JOptionPane.showMessageDialog(null, "Fecha "
+                                        + "incorrecta, mes incorrecto");
                     }
                 }
                 else{
-                    JOptionPane.showMessageDialog(null, "Fecha incorrecta, día incorrecto" );
+                    JOptionPane.showMessageDialog(null, "Fecha incorrecta, día "
+                            + "incorrecto" );
                 }
-                
-                
+              
+              
     }
  
 }

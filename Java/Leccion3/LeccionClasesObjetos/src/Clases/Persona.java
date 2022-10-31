@@ -6,8 +6,8 @@ package Clases;
 
 public class Persona {
     //Se recomienda primero definir los atributos
-   String nombre;
-   String apellido;
+   public String nombre;
+   public String apellido;
    
    //Métodos de la clase (Acciones)
    public void obtenerInformación(){
