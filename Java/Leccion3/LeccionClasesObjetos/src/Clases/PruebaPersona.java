@@ -1,4 +1,4 @@
-
+/*
 package Clases;
 
 
@@ -19,3 +19,4 @@ public class PruebaPersona {
         persona2.obtenerInformación();
     }
 }
+*/
