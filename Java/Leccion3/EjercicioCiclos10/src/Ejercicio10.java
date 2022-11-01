@@ -4,7 +4,7 @@ public class Ejercicio10 {
     public static void main(String[] args) {
         int numero, suma = 0, contador = 0;
          System.out.println("El siguiente programa calculará la suma de diez números "
-                + "ingresados");
+               + "ingresados");
                
         do{        
             numero = Integer.parseInt(JOPtionPane.showInputDialog("Ingrese un número: "));
@@ -12,7 +12,7 @@ public class Ejercicio10 {
             contador ++;
             
         }while(contador < 10);
-        System.out.println("La suma de los números ingresados es; "+suma);
+        JOptionPane.showMessageDialog(null, "La suma de los números ingresdos es: " +suma);
 }
     
 }
