@@ -44,9 +44,10 @@ class Persona{
     String apellido;
     
 Persona(String nombre, String apellido){//Método Constructor
+    super(); //Método cnstructor de la clase padre
     this.nombre = nombre;               //Tampoco se le asigna el tipo porque por defecto
     this.apellido = apellido;           //Es default o package
-    
+    System.out.println("Objeto persona usando this: "+this);
     
 }
         
