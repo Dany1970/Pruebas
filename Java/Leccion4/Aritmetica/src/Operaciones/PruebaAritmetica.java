@@ -45,6 +45,7 @@ class Persona{
     
 Persona(String nombre, String apellido){//Método Constructor
     super(); //Método cnstructor de la clase padre
+    new Imprimir().imprimir(this);
     this.nombre = nombre;               //Tampoco se le asigna el tipo porque por defecto
     this.apellido = apellido;           //Es default o package
     System.out.println("Objeto persona usando this: "+this);
@@ -54,3 +55,13 @@ Persona(String nombre, String apellido){//Método Constructor
                     
     
  }
+class Imprimir{
+    public Imprimir(){
+        super(); //El constructor de la clase padre, para reservar memoria
+    }
+
+    public void imprimir(Persona persona){
+        System.out.println("Persona desde la clase imprimir: " +persona);
+        System.out.println("Impresión del objeto actual(this) "+this);
+}
+}

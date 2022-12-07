@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2022.11.4)  17 NOV 2022 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2022.11.4)  18 NOV 2022 19:40
 entering extended mode
 **"./Universidad 40 ver2.tex"
 (Universidad 40 ver2.tex
@@ -1085,100 +1085,167 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - Entry 'ipc' (referencias.bib): Invalid format '2022
 -11-9' of date field 'urldate' - ignoring.
 
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'blearning':
+(biblatex)                - Entry 'blearning' (referencias.bib): Invalid format
+ '2022-10-5' of date field 'urldate' - ignoring.
+
 )
 Package biblatex Info: Reference section=0 on input line 47.
 Package biblatex Info: Reference segment=0 on input line 47.
  [1
 
 {C:/Users/dania/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
-
+(Universidad 40 ver2.toc
+LaTeX Info: Redefining \sptext on input line 2.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \sptext on input line 3.
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 
 (C:\Users\dania\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 
 (C:\Users\dania\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+))
+\tf@toc=\write6
+\openout6 = `"Universidad 40 ver2.toc"'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 
-      [1]
-<Imagen1.png, id=63, 426.84468pt x 249.18094pt>
+l.68 
+      [1] [2] [3
+
+]
+<Imagen1.png, id=84, 426.84468pt x 249.18094pt>
 File: Imagen1.png Graphic file (type png)
 <use Imagen1.png>
-Package pdftex.def Info: Imagen1.png  used on input line 109.
+Package pdftex.def Info: Imagen1.png  used on input line 113.
 (pdftex.def)             Requested size: 213.39568pt x 124.57874pt.
- [2]
-<Imagen2.png, id=76, 426.84468pt x 249.18094pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 113--114
+ [][] 
+ []
+
+<Imagen2.png, id=87, 426.84468pt x 249.18094pt>
 File: Imagen2.png Graphic file (type png)
 <use Imagen2.png>
-Package pdftex.def Info: Imagen2.png  used on input line 131.
+Package pdftex.def Info: Imagen2.png  used on input line 135.
 (pdftex.def)             Requested size: 213.39568pt x 124.57874pt.
-<Imagen3.png, id=79, 426.84468pt x 249.18094pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 135--136
+ [][] 
+ []
+
+[4 <./Imagen1.png>]
+<Imagen3.png, id=106, 426.84468pt x 249.18094pt>
 File: Imagen3.png Graphic file (type png)
 <use Imagen3.png>
-Package pdftex.def Info: Imagen3.png  used on input line 143.
+Package pdftex.def Info: Imagen3.png  used on input line 147.
 (pdftex.def)             Requested size: 213.39568pt x 124.57874pt.
- [3 <./Imagen1.png> <./Imagen2.png>]
-<Imagen4.png, id=93, 426.7215pt x 178.047pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+<Imagen4.png, id=108, 426.7215pt x 178.047pt>
 File: Imagen4.png Graphic file (type png)
 <use Imagen4.png>
-Package pdftex.def Info: Imagen4.png  used on input line 155.
+Package pdftex.def Info: Imagen4.png  used on input line 159.
 (pdftex.def)             Requested size: 213.39568pt x 89.03685pt.
-<Imagen5.png, id=94, 426.84468pt x 249.18094pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 159--160
+ [][] 
+ []
+
+<Imagen5.png, id=109, 426.84468pt x 249.18094pt>
 File: Imagen5.png Graphic file (type png)
 <use Imagen5.png>
-Package pdftex.def Info: Imagen5.png  used on input line 162.
+Package pdftex.def Info: Imagen5.png  used on input line 166.
 (pdftex.def)             Requested size: 213.39568pt x 124.57874pt.
-<Imagen6.png, id=95, 426.7215pt x 222.3945pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 166--167
+ [][] 
+ []
+
+<Imagen6.png, id=111, 426.7215pt x 222.3945pt>
 File: Imagen6.png Graphic file (type png)
 <use Imagen6.png>
-Package pdftex.def Info: Imagen6.png  used on input line 167.
+Package pdftex.def Info: Imagen6.png  used on input line 178.
 (pdftex.def)             Requested size: 213.39568pt x 111.21393pt.
-<Imagen7.png, id=96, 426.7215pt x 179.6895pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 178--179
+ [][] 
+ []
+
+<Imagen7.png, id=114, 426.7215pt x 179.6895pt>
 File: Imagen7.png Graphic file (type png)
 <use Imagen7.png>
-Package pdftex.def Info: Imagen7.png  used on input line 172.
+Package pdftex.def Info: Imagen7.png  used on input line 186.
 (pdftex.def)             Requested size: 213.39568pt x 89.85823pt.
- [4 <./Imagen3.png> <./Imagen4.png> <./Imagen5.png>]
-<Imagen8.png, id=112, 426.7215pt x 193.4865pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 186--187
+ [][] 
+ []
+
+[5 <./Imagen2.png> <./Imagen3.png> <./Imagen4.png> <./Imagen5.png> <./Imagen6.p
+ng>]
+<Imagen8.png, id=131, 426.7215pt x 193.4865pt>
 File: Imagen8.png Graphic file (type png)
 <use Imagen8.png>
-Package pdftex.def Info: Imagen8.png  used on input line 189.
+Package pdftex.def Info: Imagen8.png  used on input line 194.
 (pdftex.def)             Requested size: 213.39568pt x 96.75775pt.
-<Imagen9.png, id=113, 426.84468pt x 249.18094pt>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 194--195
+ [][] 
+ []
+
+<Imagen9.png, id=132, 426.84468pt x 249.18094pt>
 File: Imagen9.png Graphic file (type png)
 <use Imagen9.png>
-Package pdftex.def Info: Imagen9.png  used on input line 194.
+Package pdftex.def Info: Imagen9.png  used on input line 203.
 (pdftex.def)             Requested size: 213.39568pt x 124.57874pt.
 
+Overfull \hbox (5.0pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
 
-LaTeX Warning: Reference `fig:Imagen10' on page 5 undefined on input line 204.
-
-<Imagen10.jpg, id=115, 535.2497pt x 269.50688pt>
+<Imagen10.jpg, id=135, 535.2497pt x 269.50688pt>
 File: Imagen10.jpg Graphic file (type jpg)
 <use Imagen10.jpg>
-Package pdftex.def Info: Imagen10.jpg  used on input line 208.
+Package pdftex.def Info: Imagen10.jpg  used on input line 217.
 (pdftex.def)             Requested size: 213.39568pt x 107.44717pt.
-[5 <./Imagen6.png> <./Imagen7.png> <./Imagen8.png>]
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 217--218
+ [][] 
+ []
+
+[6 <./Imagen7.png> <./Imagen8.png> <./Imagen9.png> <./Imagen10.jpg>] [7
+
+]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-18.
+29.
 
 (C:\Users\dania\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (13.9399pt too wide) in paragraph at lines 219--219
+Overfull \hbox (13.9399pt too wide) in paragraph at lines 230--230
 []\T1/cmr/m/n/10 Transparency In-ter-na-tio-nal. \T1/cmr/m/it/10 Co-rrup-tion S
 ta-tis-tics\T1/cmr/m/n/10 . 2011-2021. \T1/cmr/m/sc/10 url\T1/cmr/m/n/10 : [][]
 $\T1/cmtt/m/n/10 https : / / www . transparency .
  []
 
-[6 <./Imagen9.png> <./Imagen10.jpg>] [7] (Universidad 40 ver2.aux
+[8
+
+] (Universidad 40 ver2.aux
 LaTeX Info: Redefining \sptext on input line 29.
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
@@ -1186,47 +1253,41 @@ LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
 )
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `"Universidad 40 ver2".out' has not changed.
 (rerunfilecheck)             Checksum: 406C1E0EB4E8E43A0FFABD555F32CEA3;1171.
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to '"Universidad 40 ver2".run.xml'.
 \openout1 = `"Universidad 40 ver2.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28585 strings out of 479334
- 530990 string characters out of 2857084
- 1247571 words of memory out of 3000000
- 45534 multiletter control sequences out of 15000+200000
+ 28594 strings out of 479334
+ 530997 string characters out of 2857084
+ 1252699 words of memory out of 3000000
+ 45537 multiletter control sequences out of 15000+200000
  421194 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,7n,102p,1430b,2008s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 102i,7n,102p,1430b,2010s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1000.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ectt1000.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\eccc1000.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1000.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\dania\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\dania\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\dania\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\dania\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dania\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\
+pen/ec/dpi600\ecbx1200.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\dania\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dania\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\dania\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\dania\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\dania\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\
 dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
 Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2488.pk
 > <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1
 440.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \eccc1440.pk> <C:\Users\dania\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
 dpi600\ecbx1728.pk>
-Output written on "Universidad 40 ver2.pdf" (8 pages, 558290 bytes).
+Output written on "Universidad 40 ver2.pdf" (9 pages, 574017 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
+ 653 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 

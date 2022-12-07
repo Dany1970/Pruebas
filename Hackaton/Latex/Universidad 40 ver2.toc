@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Planteamiento del problema}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}La propuesta. Misión}{4}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Objetivos}{4}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Visión}{4}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Estudio de mercado}{4}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Resultados}{4}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}Otros resultados}{5}{subsubsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Análisis competitivo}{6}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Conclusiones}{6}{section.5}%

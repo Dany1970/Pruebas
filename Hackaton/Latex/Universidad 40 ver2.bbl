@@ -1,0 +1,135 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{estonia}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a07175017ea4436bdc15763542bb896a}{%
+           family={e-Estonia},
+           familyi={e\bibinithyphendelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a07175017ea4436bdc15763542bb896a}
+      \strng{fullhash}{a07175017ea4436bdc15763542bb896a}
+      \strng{bibnamehash}{a07175017ea4436bdc15763542bb896a}
+      \strng{authorbibnamehash}{a07175017ea4436bdc15763542bb896a}
+      \strng{authornamehash}{a07175017ea4436bdc15763542bb896a}
+      \strng{authorfullhash}{a07175017ea4436bdc15763542bb896a}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://e-estonia.com/solutions/e-governance/government-cloud/
+      \endverb
+      \verb{url}
+      \verb https://e-estonia.com/solutions/e-governance/government-cloud/
+      \endverb
+      \warn{\item Entry 'estonia' (referencias.bib): Invalid format '2022-10-1' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{ipc}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6ab72c14b3ed3f2b128b1a816efe3702}{%
+           family={International},
+           familyi={I\bibinitperiod},
+           given={Transparency},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ab72c14b3ed3f2b128b1a816efe3702}
+      \strng{fullhash}{6ab72c14b3ed3f2b128b1a816efe3702}
+      \strng{bibnamehash}{6ab72c14b3ed3f2b128b1a816efe3702}
+      \strng{authorbibnamehash}{6ab72c14b3ed3f2b128b1a816efe3702}
+      \strng{authornamehash}{6ab72c14b3ed3f2b128b1a816efe3702}
+      \strng{authorfullhash}{6ab72c14b3ed3f2b128b1a816efe3702}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Corruption Statistics}
+      \field{year}{2011-2021}
+      \verb{urlraw}
+      \verb https://www.transparency.org.uk/corruption-statistics
+      \endverb
+      \verb{url}
+      \verb https://www.transparency.org.uk/corruption-statistics
+      \endverb
+      \warn{\item Entry 'ipc' (referencias.bib): Invalid format '2022-11-9' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{onu15}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed07de2f45d373cf018bc040bb099af9}{%
+           family={ONU},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{fullhash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{bibnamehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{authorbibnamehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{authornamehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{authorfullhash}{ed07de2f45d373cf018bc040bb099af9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Documento final de la reunión de alto nivel de la Asamblea General sobre el examen general de la aplicación de los resultados de la Cumbre Mundial sobre la Sociedad de la Información}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://documents-dds-ny.un.org/doc/UNDOC/GEN/N15/438/46/pdf/N1543846.pdf?OpenElement
+      \endverb
+      \verb{url}
+      \verb https://documents-dds-ny.un.org/doc/UNDOC/GEN/N15/438/46/pdf/N1543846.pdf?OpenElement
+      \endverb
+    \endentry
+    \entry{blearning}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a5e06351c55a08bdc36bda5e74255ea8}{%
+           family={Políticas\bibnamedelima Universitarias},
+           familyi={P\bibinitperiod\bibinitdelim U\bibinitperiod},
+           given={Secretaría},
+           giveni={S\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5e06351c55a08bdc36bda5e74255ea8}
+      \strng{fullhash}{a5e06351c55a08bdc36bda5e74255ea8}
+      \strng{bibnamehash}{a5e06351c55a08bdc36bda5e74255ea8}
+      \strng{authorbibnamehash}{a5e06351c55a08bdc36bda5e74255ea8}
+      \strng{authornamehash}{a5e06351c55a08bdc36bda5e74255ea8}
+      \strng{authorfullhash}{a5e06351c55a08bdc36bda5e74255ea8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Síntesis Universitaria 2019-2020 con nuevas estadísticas sobre modalidad a distancia}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.argentina.gob.ar/noticias/sintesis-universitaria-2019-2020-con-nuevas-estadisticas-sobre-modalidad-distancia
+      \endverb
+      \verb{url}
+      \verb https://www.argentina.gob.ar/noticias/sintesis-universitaria-2019-2020-con-nuevas-estadisticas-sobre-modalidad-distancia
+      \endverb
+      \warn{\item Entry 'blearning' (referencias.bib): Invalid format '2022-10-5' of date field 'urldate' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

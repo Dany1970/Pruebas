@@ -52,7 +52,7 @@ class Persona: #Creamos una clase
 # # Persona.mostrar_detalle() #Debemos pasarle una referencia para el self por ej
 # Persona.mostrar_detalle(persona1) #aunque no es muy usado, no es eficaz, si se nos presenta un codigo así, hay que modificarlo
 
-# persona1.telefono = '4445567'# Hemos creado un atributo de un objeto
+# persona1.telefono = '4445567'# Hemos creado un atributo (superficial) de un objeto
 
 # print(f'Este es el teléfono de {persona1.nombre}: {persona1.telefono}')
 
